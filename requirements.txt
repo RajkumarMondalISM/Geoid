@@ -1,25 +1,26 @@
 # Core dependencies
-streamlit==1.52.2
-pandas==2.3.3
-numpy==1.26.4
-scipy==1.16.3
-matplotlib==3.10.8
-plotly==6.5.0
-pillow==12.1.0
+streamlit
+pandas
+numpy
+scipy
+matplotlib
+plotly
+pillow
 
 # Numba works well with Python 3.11
-numba==0.61.0
-llvmlite==0.43.0
+numba
+llvmlite
 
 # For CSV file reading
-h5py==3.12.1
+h5py
 
 # Visualization
-seaborn==0.13.2
+seaborn
 
 # Machine learning
-scikit-learn==1.6.1
+scikit-learn
 
 # File handling
-openpyxl==3.1.5
-lxml==5.3.0
+openpyxl
+lxml
+
