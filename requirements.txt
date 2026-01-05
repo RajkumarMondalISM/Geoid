@@ -1,50 +1,17 @@
 # Core dependencies
-streamlit
-pandas
-numpy
-scipy
-matplotlib
-seaborn
-plotly
-xarray
-numba
-pillow
+streamlit==1.52.2
+pandas==2.3.3
+numpy==2.4.0
+scipy==1.16.3
+matplotlib==3.10.8
+plotly==6.5.0
+pillow==12.1.0
 
-# Geospatial and file format handling
-rioxarray
-netcdf4
-gdal
-rasterio
+# For CSV file reading (alternative to netcdf4)
+h5py==3.12.1
+h5netcdf==1.4.0
 
-# Machine learning for outlier detection
-scikit-learn
-
-# File and data handling
-openpyxl
-lxml
-
-# Utilities
-pyproj
-shapely
-geopandas
-utm
-pykrige
-
-# Web and requests
-requests
-urllib3
-
-# Optional: For advanced interpolation
-pyinterp
-pyvista
-
-# Optional: For better performance
-dask
-joblib
-
-# System utilities
-python-dateutil
-pytz
-
-tzlocal
-
+# Optional: Remove these if you don't use them
+seaborn==0.13.2
+xarray==2025.12.0
+scikit-learn==1.6.1
