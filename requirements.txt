@@ -7,6 +7,10 @@ matplotlib==3.10.8
 plotly==6.5.0
 pillow==12.1.0
 
+# Numba for Python 3.13
+numba==0.63.1
+llvmlite==0.43.0
+
 # For CSV file reading (alternative to netcdf4)
 h5py==3.12.1
 h5netcdf==1.4.0
@@ -15,3 +19,4 @@ h5netcdf==1.4.0
 seaborn==0.13.2
 xarray==2025.12.0
 scikit-learn==1.6.1
+
