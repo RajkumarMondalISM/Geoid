@@ -6,7 +6,7 @@ scipy
 matplotlib
 plotly
 pillow
-
+xarray
 # Numba works well with Python 3.11
 numba
 llvmlite
@@ -23,4 +23,5 @@ scikit-learn
 # File handling
 openpyxl
 lxml
+
 
