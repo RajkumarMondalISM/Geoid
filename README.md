@@ -30,6 +30,7 @@ Run the following command: streamlit run gui.py
 
 
 Data Attached
+
 Data Type	Recommended Source	Format
 Crustal Thickness	IRIS CRUST1.0	CSV
 Sedimentary Thickness	CRUST1.0	CSV
@@ -37,14 +38,23 @@ Topography	ETOPO1 / ETOPO2022	NetCDF
 Geoid	EGM2008	GDF / NetCDF
 
 Data Analysis
+
 The Data Analysis section focuses on assessing data quality and statistical distribution. Users can examine minimum, maximum, mean, and standard deviation values, visualize data distributions, and identify potential anomalies or outliers. This step is essential for ensuring that erroneous or extreme values do not bias interpolation or geoid correction results. The analysis tools support informed decision-making prior to spatial modeling.
+
 Data Visualization
+
 The Data Visualization module enables spatial interpolation and mapping of all uploaded datasets. Users can generate continuous grids using interpolation methods such as nearest-neighbor, linear, cubic, or radial basis functions. Additional visualization enhancements include Gaussian smoothing, contour overlays, and customizable color maps. Both static and interactive plots are supported, allowing detailed inspection of spatial patterns in geoid and correction fields.
+
 Geoid Corrections
+
 The Geoid Corrections section implements physically motivated corrections to observed geoid heights. Users can compute topographic corrections, crustal thickness corrections, sedimentary corrections, or a combined correction that accounts for all mass contributions. Physical parameters such as density contrasts, reference crustal thickness, and angular cutoffs are user-defined. The correction calculations are optimized using numerical acceleration techniques to handle large datasets efficiently.
+
 Profiling Line Tool
+
 The profiling tool allows users to draw a custom line across the study region and extract geoid or corrected geoid values along that line. This functionality is particularly useful for tectonic, lithospheric, and regional interpretation, where variations along transect provide insight into subsurface structure. The extracted profiles can be used for comparison with seismic or geological models.
+
 Support & Contact
+
 Developer: Rajkumar Mondal, Dr. Chandra Prakash Dubey
 Laboratory: LithoSphereX Lab, Dept. Geology and Geophysics, IIT Kharagpur
 Email: rajkumarmondal691@gmail.com, p.dubey48@gmail.com, cpdubey@gg.iitkgp.ac.in
