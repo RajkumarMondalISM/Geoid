@@ -16,7 +16,10 @@ The GUI follows:
 4.	Data Visualization
 5.	Geoid Corrections
 6.	Draw Profiling Line
+
+   
 Required Python Libraries
+
 streamlit==1.28.0, pandas==2.0.3, numpy==1.24.3, matplotlib==3.7.2, seaborn==0.12.2, scipy==1.11.2, plotly==5.16.1, xarray==2023.7.0, netCDF4==1.6.4, scikit-learn==1.3.0, numba==0.57.1, requests==2.31.0
 How to Run
 Navigate to the application directory (open in ternimal): cd path/to/gui file (py needs to be available in the system)
